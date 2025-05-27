@@ -62,7 +62,7 @@ If using local MongoDB, ensure it's running:
 mongod
 ```
 
-## A.adding the books to the database
+## A.Add the books to the database
 
 ```bash
 node insert_books
