@@ -154,7 +154,6 @@ Example Filter:
 
 ## Author
 
-**Your Name**  
 GitHub: [@mutheeEverlyn](https://github.com/mutheeEverlyn)
 
 
