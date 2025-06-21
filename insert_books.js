@@ -16,7 +16,7 @@ const books = [
     title: 'To Kill a Mockingbird',
     author: 'Harper Lee',
     genre: 'Fiction',
-    published_year: 1960,
+    published_year: 2000,
     price: 12.99,
     in_stock: true,
     pages: 336,
@@ -26,7 +26,7 @@ const books = [
     title: '1984',
     author: 'George Orwell',
     genre: 'Dystopian',
-    published_year: 1949,
+    published_year: 2010,
     price: 10.99,
     in_stock: true,
     pages: 328,
@@ -36,7 +36,7 @@ const books = [
     title: 'The Great Gatsby',
     author: 'F. Scott Fitzgerald',
     genre: 'Fiction',
-    published_year: 1925,
+    published_year: 2015,
     price: 9.99,
     in_stock: true,
     pages: 180,
@@ -46,7 +46,7 @@ const books = [
     title: 'Brave New World',
     author: 'Aldous Huxley',
     genre: 'Dystopian',
-    published_year: 1932,
+    published_year: 2012,
     price: 11.50,
     in_stock: false,
     pages: 311,
@@ -56,7 +56,7 @@ const books = [
     title: 'The Hobbit',
     author: 'J.R.R. Tolkien',
     genre: 'Fantasy',
-    published_year: 1937,
+    published_year: 2017,
     price: 14.99,
     in_stock: true,
     pages: 310,
@@ -66,7 +66,7 @@ const books = [
     title: 'The Catcher in the Rye',
     author: 'J.D. Salinger',
     genre: 'Fiction',
-    published_year: 1951,
+    published_year: 1999,
     price: 8.99,
     in_stock: true,
     pages: 224,
@@ -76,7 +76,7 @@ const books = [
     title: 'Pride and Prejudice',
     author: 'Jane Austen',
     genre: 'Romance',
-    published_year: 1813,
+    published_year: 2005,
     price: 7.99,
     in_stock: true,
     pages: 432,
@@ -86,7 +86,7 @@ const books = [
     title: 'The Lord of the Rings',
     author: 'J.R.R. Tolkien',
     genre: 'Fantasy',
-    published_year: 1954,
+    published_year: 2004,
     price: 19.99,
     in_stock: true,
     pages: 1178,
@@ -185,7 +185,7 @@ insertBooks().catch(console.error);
      db.books.find({ author: "George Orwell" })
  
   3. Find books published after 1950:
-     db.books.find({ published_year: { $gt: 1950 } })
+     db.books.find({ published_year: { $gt: 2010 } })
  
   4. Find books in a specific genre:
      db.books.find({ genre: "Fiction" })
