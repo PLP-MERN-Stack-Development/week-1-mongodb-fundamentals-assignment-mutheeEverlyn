@@ -178,18 +178,18 @@ async function insertBooks() {
 // Run the function
 insertBooks().catch(console.error);
 
-  1. Find all books:
+  // 1. Find all books:
      db.books.find()
  
-  2. Find books by a specific author:
+  // 2. Find books by a specific author:
      db.books.find({ author: "George Orwell" })
  
-  3. Find books published after 1950:
+  // 3. Find books published after 1950:
      db.books.find({ published_year: { $gt: 2010 } })
  
-  4. Find books in a specific genre:
+  // 4. Find books in a specific genre:
      db.books.find({ genre: "Fiction" })
  
-  5. Find in-stock books:
+  // 5. Find in-stock books:
      db.books.find({ in_stock: true })
  
